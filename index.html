@@ -1,0 +1,59 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="hero">
+            <h1>Snowflake Bistro</h1>
+            <h2>The best burgers and pizza you ever had!</h2>
+        </header>
+        <section id="menu-list">
+            <!-- MENU CONTENT -->
+        </section>
+        <section id="order-section" class="order-section">
+            <div class="order-section-inner hidden" id="order-section-inner">
+                <!-- ORDER CONTENT -->
+            </div>
+        </section>
+        <section>
+            <div class="modal-background hidden" id="modal-background"> 
+                <div class="modal-content">
+                    <form id="payment-form">
+                        <h3>Enter card details</h3>
+                        <input 
+                            type="text" 
+                            id="card-name" 
+                            name="card-name" 
+                            placeholder="Enter your name" 
+                            required
+                        > <br>
+                        <input 
+                            type="number" 
+                            id="card-number" 
+                            name="card-number" 
+                            placeholder="Enter card number" 
+                            required
+                        > <br>
+                        <input 
+                            type="number" 
+                            id="card-cvv" 
+                            name="card-cvv" 
+                            placeholder="Enter CVV" 
+                            required
+                        > <br>
+                        <button type="submit" id="submit-btn" data-submitbtn="true">Pay</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="message hidden" id="message">
+                <!-- MESSAGE CONTENT-->
+            </div>
+        </section>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
