@@ -1,3 +1,10 @@
+// Import all images at the top
+import beerImg from './images/beer.png'
+import burgerImg from './images/burger.png'
+import heroImg from './images/hero-imgg.png'
+import pizzaImg from './images/pizza.png'
+
+
 export const menuArray = [
     {
         name: "Pizza",
@@ -5,7 +12,7 @@ export const menuArray = [
         id: 0,
         price: 14,
         emoji: "🍕",
-        image: "/images/pizza.png"
+        image: pizzaImg
     },
     {
         name: "Hamburger",
@@ -13,7 +20,7 @@ export const menuArray = [
         price: 12,
         emoji: "🍔",
         id: 1,
-        image: "/images/burger.png"
+        image: burgerImg
     },
         {
         name: "Beer",
@@ -21,6 +28,6 @@ export const menuArray = [
         price: 12,
         emoji: "🍺",
         id: 2,
-        image: "/images/beer.png"
+        image: beerImg
     }
 ]
